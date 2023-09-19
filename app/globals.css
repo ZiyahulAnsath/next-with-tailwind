@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* All the exact component style will be changed*/
+/* @layer base{
+    h5 {
+        font-family : cursive;
+        text-decoration: underline;
+    }
+} */
+
+/* Define the className change styles*/
+/* @layer utilities{
+    .font-cursive{
+        font-family:cursive;
+    }
+} */
+
+/* another custom style internal tailwind css move to the tailwind.config.ts file then extends area input the value  */
